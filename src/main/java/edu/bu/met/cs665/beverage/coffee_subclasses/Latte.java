@@ -2,14 +2,18 @@ package edu.bu.met.cs665.beverage.coffee_subclasses;
 
 import edu.bu.met.cs665.beverage.Coffee;
 
+// Represents a Latte coffee, extending the general Coffee class
 public class Latte extends Coffee {
-    private final int brewTime = 30;
 
-    public Latte(String n, int s) {
-        super(n, s);
+    // Constructor for Latte class, taking name and size as parameters
+    public Latte(String name, int size) {
+        super(name, size); // Call the superclass (Coffee) constructor
     }
 
+    // Getter method for brew time
+    @Override
     public int getBrewTime() {
-        return this.brewTime;
+        // Define the brew time for a Latte in seconds
+        return 30;
     }
 }

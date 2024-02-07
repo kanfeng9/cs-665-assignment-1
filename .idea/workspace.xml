@@ -4,30 +4,25 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d94a9d5-f6a2-4c57-9dff-c3084fe22814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_java2html_java2html_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hudsonci_plugins_analysis_core_1_49_h_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hudsonci_plugins_findbugs_4_48_h_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hudsonci_plugins_findbugs_library_2_0_1_h_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hudsonci_plugins_jfreechart_plugin_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" beforeDir="false" />
+    <list default="true" id="3d94a9d5-f6a2-4c57-9dff-c3084fe22814" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/bu/met/cs665/VendingMachineTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Black.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Black.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Green.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Yellow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/example1/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/bu/met/cs665/TestAge.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,22 +297,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TestAge.executor": "Run",
+    "JUnit.VendingMachineTests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lee/IdeaProjects/met-cs665-assignment-1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestAge">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lee\IdeaProjects\met-cs665-assignment-1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VendingMachineTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="edu.bu.met.cs665.Main" />
       <module name="Example-1" />
@@ -333,7 +340,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VendingMachineTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Example-1" />
       <extension name="coverage">
         <pattern>
@@ -342,19 +349,21 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.bu.met.cs665" />
-      <option name="MAIN_CLASS_NAME" value="edu.bu.met.cs665.TestAge" />
+      <option name="MAIN_CLASS_NAME" value="edu.bu.met.cs665.VendingMachineTests" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestAge" />
+      <item itemvalue="JUnit.VendingMachineTests" />
       <item itemvalue="应用程序.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAge" />
+        <item itemvalue="JUnit.VendingMachineTests" />
+        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +371,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-1.8.0_402-semeru-1.8.0_402-4caba194b151-4f9569f0" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -382,6 +392,7 @@
       <workItem from="1563225984937" duration="1514000" />
       <workItem from="1707268694368" duration="627000" />
       <workItem from="1707270553786" duration="2313000" />
+      <workItem from="1707278303304" duration="11735000" />
     </task>
     <task id="LOCAL-00001" summary="Base beverage class. First commit">
       <created>1563226192106</created>
@@ -411,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1563227172738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Default Changelist">
+      <option name="closed" value="true" />
+      <created>1707278375895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707278375895</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -461,12 +480,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base beverage class. First commit" />
     <MESSAGE value="Coffee subclasses commit" />
     <MESSAGE value="Vending machine class" />
     <MESSAGE value="Fixed equals/hashcode bug in beverage class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed equals/hashcode bug in beverage class" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">

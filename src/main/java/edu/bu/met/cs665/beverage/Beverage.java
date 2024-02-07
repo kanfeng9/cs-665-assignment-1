@@ -1,12 +1,16 @@
 package edu.bu.met.cs665.beverage;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Beverage {
     private String name;
     private int size;
+    private final Map<String, Integer> condiments = new HashMap<>();
 
-    Beverage(String n, int s) {
-        this.name = n;
-        this.size = s;
+    public Beverage(String name, int size) {
+        this.name = name;
+        this.size = size;
     }
 
     public String getName() {
@@ -25,29 +29,31 @@ public class Beverage {
         this.size = size;
     }
 
-    @Override
-    public String toString() {
-        return "Beverage{" +
-                "name='" + name + '\'' +
-                ", size=" + size +
-                '}';
-    }
-
-    @Override
-    public int hashCode() {
-        return this.size;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
+    public boolean addCondiment(String type, int amount) {
+        if (!type.equals("Milk") && !type.equals("Sugar")) {
+            throw new IllegalArgumentException("Invalid condiment type.");
         }
-
-        if (obj == null || obj.getClass() != this.getClass()) {
-            return false;
+        if (amount < 0 || amount > 3) {
+            throw new IllegalArgumentException("Amount per addition must be between 0 and 3.");
         }
-        Beverage bev = (Beverage) obj;
-        return (bev.name.equals(this.name) && bev.size == this.size);
+        int currentAmount = condiments.getOrDefault(type, 0);
+        if (currentAmount + amount > 3) {
+            return false; // Cannot exceed 3 units of any single condiment
+        }
+        if (getTotalCondiments() + amount > 6) {
+            return false; // Total condiments cannot exceed 6 units
+        }
+        condiments.put(type, currentAmount + amount);
+        return true;
     }
+
+    public int getTotalCondiments() {
+        return condiments.values().stream().mapToInt(Integer::intValue).sum();
+    }
+
+    public int getCondimentQuantity(String type) {
+        return condiments.getOrDefault(type, 0);
+    }
+
+    // Existing toString, hashCode, and equals methods...
 }
