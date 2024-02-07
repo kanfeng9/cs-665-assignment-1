@@ -14,7 +14,7 @@ public class VendingMachine {
 
     // Constructor initializes the vending machine with a list of beverages
     public VendingMachine(List<Beverage> beverages) {
-        map = new HashMap<Beverage, Integer>();
+        map = new HashMap<>();
         this.beverageList = beverages;
         init(); // Initialize the machine with the provided beverages
     }

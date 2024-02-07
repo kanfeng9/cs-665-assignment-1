@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d94a9d5-f6a2-4c57-9dff-c3084fe22814" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/bu/met/cs665/VendingMachineTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3d94a9d5-f6a2-4c57-9dff-c3084fe22814" name="Default Changelist" comment="Final Version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/Tea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/coffee_subclasses/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Black.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Black.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Green.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/beverage/tea_subclasses/Yellow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/bu/met/cs665/example1/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/bu/met/cs665/TestAge.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +377,7 @@
       <workItem from="1563225984937" duration="1514000" />
       <workItem from="1707268694368" duration="627000" />
       <workItem from="1707270553786" duration="2313000" />
-      <workItem from="1707278303304" duration="11735000" />
+      <workItem from="1707278303304" duration="12382000" />
     </task>
     <task id="LOCAL-00001" summary="Base beverage class. First commit">
       <created>1563226192106</created>
@@ -430,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707278375895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final Version">
+      <option name="closed" value="true" />
+      <created>1707337328288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707337328288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,7 +490,8 @@
     <MESSAGE value="Vending machine class" />
     <MESSAGE value="Fixed equals/hashcode bug in beverage class" />
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="Final Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
